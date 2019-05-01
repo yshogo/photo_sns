@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460874127752",
+    "firebase_url": "https://photosns-a2dd2.firebaseio.com",
+    "project_id": "photosns-a2dd2",
+    "storage_bucket": "photosns-a2dd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460874127752:android:9724bc5e4c1b22c3",
+        "android_client_info": {
+          "package_name": "photosns.photo_sns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460874127752-tuv43mmion1o5ua03trhld0jfh64kmf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwZuWgw7CIJ9eSnDlsZ9aDuWXujsJddls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460874127752-tuv43mmion1o5ua03trhld0jfh64kmf1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "460874127752-vuoleh1jfe1gq3ksqn7s4g5qrfbqct73.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "photosns.photoSns"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
