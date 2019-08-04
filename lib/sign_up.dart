@@ -49,7 +49,13 @@ class _SignUpState extends State<SignUp> {
               onPressed: (){
                 String email = _emailController.text;
                 String password = _passwordController.text;
-
+                _signUp(email, password).then((FirebaseUser user) {
+                  _saveUid(user.uid).then((value) {
+                    print("Sign up success");
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                  });
+                });
               },
               child: Text("サインアップ"),
             )
